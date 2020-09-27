@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Awesomeness Motor Designer - Torque result</title>
+</head>
+
+<body>
+    <h1>
+        Awesomeness Motor Designer by the <strong>Kanci Team</strong>
+    </h1>
+    <h2>
+        Calculation result
+    </h2>
+    <p>Pn [kW]: {{ pn }}</p>
+    <p>Speed [rpm]: {{ speed }}</p>
+    <p> torque [Nm]: <strong>{{ torque }}</strong></p>
+    <button type="button" onclick="javascript:history.back()">I want to calculate more!</button>
+    <p/>
+    <button type="button" onclick="document.getElementById('plasterboard-answer').style.display = 'block'">I want to know who kicked in the plasterboard!</button>
+    <h3 id="plasterboard-answer" style="display: none; color: deeppink">KANCIIIIII</h3>
+</body>
+</html>
