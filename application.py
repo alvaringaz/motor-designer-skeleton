@@ -15,3 +15,7 @@ def calculate_torque():
     speed: float = float(request.form['speed'])
     torque: float = calc_torque(pn, speed)
     return render_template('torque_result.html', pn=pn, speed=speed, torque=torque)
+
+if __name__ == '__main__':
+    # Threaded option to enable multiple instances for multiple user access support
+    app.run(threaded=True, port=5000)
