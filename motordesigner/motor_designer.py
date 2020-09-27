@@ -1,5 +1,4 @@
-# Put all the cool shit about the calculation, here or into a separate "module" file
-# It's just basically a separate file with functions
+# Put all the cool stuff about the calculations here and import it
 import math
 
 
